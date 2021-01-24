@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon -r esm server.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "date-fns": "^2.16.1",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.3",
+    "nodemon": "^2.0.6"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "stock_monitor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently \"yarn --cwd backend start\" \"yarn --cwd frontend start\""
+  },
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  }
+}
